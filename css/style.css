@@ -1,0 +1,95 @@
+#header-all {
+  height: auto;
+  min-height: 100vh;
+  background: url("../image/header.jpg") no-repeat center;
+}
+
+#skill {
+  height: auto;
+}
+
+#skill hr {
+  height: 0.3125rem;
+  width: 6.25rem;
+  text-align: center;
+  position: relative;
+  background: #E87E04;
+  margin: 0 auto 80px;
+  border: 0;
+  transition: all 0.5s 0.2s;
+}
+
+#jineng {
+  height: auto;
+  min-height: 50vh;
+}
+
+#jineng hr {
+  height: 0.3125rem;
+  width: 6.25rem;
+  text-align: center;
+  position: relative;
+  background: #E87E04;
+  margin: 0 auto 80px;
+  border: 0;
+  transition: all 0.5s 0.2s;
+}
+
+#work hr {
+  height: 0.3125rem;
+  width: 6.25rem;
+  text-align: center;
+  position: relative;
+  background: #E87E04;
+  margin: 0 auto 80px;
+  border: 0;
+  transition: all 0.5s 0.2s;
+}
+
+#demo hr {
+  height: 0.3125rem;
+  width: 6.25rem;
+  text-align: center;
+  position: relative;
+  background: #E87E04;
+  margin: 0 auto 80px;
+  border: 0;
+  transition: all 0.5s 0.2s;
+}
+
+#demo .imgbox {
+  position: relative;
+}
+
+#demo .imgbox .img-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#demo .imgbox img:hover {
+  opacity: .5;
+}
+
+#demo .imgbox:hover .img-text {
+  display: block;
+}
+
+#demo .imgbox:hover img {
+  opacity: .5;
+}
+
+.mg-df {
+  margin-top: 3rem;
+}
+
+#footer-bottom {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-white {
+  color: #FFF;
+}

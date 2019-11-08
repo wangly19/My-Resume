@@ -1,0 +1,93 @@
+#header-all{
+  height: auto;
+  min-height: 100vh;
+  background: url('../image/header.jpg') no-repeat center;
+}
+
+#skill {
+  height: auto;
+  hr{
+    height: .3125rem /* 5/16 */;
+    width: 6.25rem /* 100/16 */;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+  }
+}
+#jineng {
+  height: auto;
+  min-height: 50vh;
+  hr{
+    height: .3125rem /* 5/16 */;
+    width: 6.25rem /* 100/16 */;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+  }
+}
+
+#work{
+  hr{
+    height: .3125rem /* 5/16 */;
+    width: 6.25rem /* 100/16 */;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+  }
+}
+
+#demo{
+  
+  hr{
+    height: .3125rem /* 5/16 */;
+    width: 6.25rem /* 100/16 */;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+  }
+  .imgbox{
+    position: relative;
+    .img-text{
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    img:hover{
+      opacity: .5;
+    }
+  }
+  .imgbox:hover{
+    .img-text{
+      display: block;
+    }
+    img{
+      opacity: .5;
+    }
+  }
+}
+
+// 公共样式
+.mg-df{
+  margin-top: 3rem;
+}
+#footer-bottom{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.text-white{
+  color: #FFF;
+}
